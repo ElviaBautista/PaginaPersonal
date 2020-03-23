@@ -1,0 +1,89 @@
+
+.presentacion{
+   
+    background-color: rgb(210,58,145);
+
+    width:auto;
+     /*600px  */
+
+    height: 50px;
+    margin:  0px 300px 50px 300px;
+    border-radius: 45px;
+    padding:0px;
+    position: relative;
+}
+.presentacion div {
+
+    flex-basis: 300px;
+
+    text-align: center;
+    /* padding-top: 5px; */
+    /* margin: 10px 5px; */
+    font-size: 28px;
+    min-width: 500px;
+    
+}
+.presentacion div h2{
+    align-content: center;
+    min-width: 20px;
+
+}
+
+.seccionP{
+    margin: auto;
+    /* margin-left: 250px; */
+    padding: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+
+
+.Tarjeta{
+    position: relative;
+    background: #757575e8;
+    width: 420px;
+    height: 520px;
+    margin: 0 auto;
+
+}
+
+
+.Tarjeta .ask{
+    position: relative;
+    width: 100%;
+    height:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f0314e8;
+}
+.Tarjeta .res{
+    position: relative;;
+    width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.Tarjeta .res p{
+    text-align: center;
+    font-size: 24px;
+}
+.Tarjeta .res img{
+    width: calc(520px - 320px);
+    height: calc(520px - 320px );
+    box-sizing: border-box;
+}
+.Tarjeta .ask  h3{
+    color: #f2f2ff;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.swiper-slide{
+    width: 400px;
+}
+

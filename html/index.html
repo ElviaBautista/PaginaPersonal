@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/presentacion.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina-Personal</title>
+</head>
+<body>
+    <input type="checkbox"  id="check">
+    <label for="check">
+        <i class="fas fa-bars" id= "btn"></i>
+        <i class="fas fa-times" id= "cancel"></i>
+    </label>
+
+    
+    <div class="Menu"> 
+
+        <header >Menu</header>
+            <ul>
+                <li> <a href="#home"><i class="far fa-user-circle"></i></a></li>
+                <li> <a href="#Notas"><i class="fas fa-sticky-note"> Notas </i>  </a></li>
+                <li> <a href="#Recordatorios"><i class="fas fa-bell">  Recordatorios </i> </a></li>
+                <li> <a href="#Directory"><i class="fas fa-folder-open"></i> Directory</a></li>
+                <li> <a href="#Etiquetas"><i class="fas fa-paperclip"></i> Etiquetas </a></li>
+                <li> <a href="#Archivar"><i class="fas fa-clipboard">  Archivar </i></a></li>
+                <li> <a href="#Papelera"><i class="fas fa-trash-alt">  Papelera</i></a></li>
+                <div>
+                    <li> <a href="#404.html">Facebook</a> 
+                        <a href="#404.html">Twitter</a>
+                        <a href="#404.html">GitHub</a>
+                    
+                    </li>
+                  
+
+                </div>
+
+                
+
+                <!-- <li> <a href="#">Spaces </a></li>
+                <li> <a href="#">Spaces </a></li> -->
+            </ul>
+
+    </div>
+    <div class="barra">
+        <li> <a href="#"><i class=" fas fa-usuario"></i> </a></li>
+
+    </div>
+    <section id="home" class="seccionP"> 
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" >
+                    <section class="Tarjeta" >
+                        <div class="ask">
+                            <h3>¡Nota  rapida ! </h3>
+                        </div>
+                        <div class="res">
+                            <p>PROYECTO SEMANAL</p>
+
+                            <div>
+                                <img src="../images/img2.jpg" alt="No diponible">
+
+                            </div>
+                        </div>
+                    </section><!-- endsection Tarjeta -->
+                </div><!-- end  swiper-slide -->
+            
+    
+                <div class="swiper-slide" >
+                    <section class="Tarjeta" >
+                        <div class="ask">
+                            <h3>¿Debo aislarme si tuve contacto con algún caso confirmado? </h3>
+                        </div>
+                        <div class="res">
+                            <p>
+                                Hay muchos casos de personas que decidieron ponerse en cuarentena 
+                                al comprobar que estuvieron cerca de alguien que se enfermó de COVID-19.
+                            </p>
+                        </div>
+                    </section><!-- endsection Tarjeta -->
+                </div><!-- end  swiper-slide -->
+            
+            </div><!-- end  swiper-wrapper -->
+        </div><!-- end swiper-container -->
+
+    </section>
+<!-- end seccionP /todas las Preguntas -->
+
+
+
+
+
+<!-- importacion del script js -->
+<script src="../js/swiper.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+var swiper = new Swiper('.swiper-container', {
+effect: 'coverflow',
+grabCursor: true,
+centeredSlides: true,
+slidesPerView: 'auto',
+coverflowEffect: {
+    rotate: 30,
+    stretch: 0,
+    depth: 200,
+    modifier: 1,
+    slideShadows : true,
+},
+pagination: {
+    el: '.swiper-pagination',
+},
+});
+</script>
+
+<!-- <footer class="modulos">
+
+    <a href="./pag404.html">
+        <section class="sec">           
+            <li> <a href="#"><i class="fas fa-sticky-note">  Notas </i>  </a></li>
+        </section>
+        
+    </a>
+    <a href="./pag404.html">
+        <section class="sec">           
+            <li> <a href="#"><i class="fas fa-sticky-note">  Notas </i>  </a></li>
+        </section>
+        
+    </a>
+    <a href="./pag404.html">
+        <section class="sec">           
+            <li> <a href="#"><i class="fas fa-sticky-note">  Notas </i>  </a></li>
+        </section>
+        
+    </a>
+  
+
+</footer> -->
+
+<section class="Secciones_Menu">
+    
+    <!-- seccion Notas -->
+    <section id="Notas">
+        <h2>Notas</h2>
+        <div>
+            <h3>Nota :</h3>
+            <p>iniciar presentación</p>
+        </div>
+
+    </section>
+    <!-- seccion Recordatorios -->
+    <section id="Recordatorios">
+        <h2>Recordatorios</h2>
+        <div>
+            <h3>¡NO TIENES NUEVOS RECORDATORIOS!</h3>
+            <p>iniciar presentación</p>
+            <div class="imagenes">
+                <img src="../images/img14.jpg" alt="">
+                <img src="../images/img2.jpg" alt="">
+                <img src="../images/img14.jpg" alt="">
+
+            </div>
+           thestrokes
+           
+        </div>
+
+    </section>
+    <!-- seccion  Directory-->
+    <section id="Directory">
+        <h2>Directory</h2>
+        <div>
+            <h3>Nota :</h3>
+            <p>iniciar presentación</p>
+        </div>
+
+    </section>
+    <!-- seccion Etiquetas -->
+    <section id="Etiquetas">
+        <h2>Etiquetas</h2>
+        <div>
+            <h3>Nota :</h3>
+            <p>iniciar presentación</p>
+        </div>
+
+    </section>
+    <!-- seccion Archivar -->
+    <section id="Archivar">
+        <h2>Archivar</h2>
+        <div>
+            <h3>Nota :</h3>
+            <p>iniciar presentación</p>
+        </div>
+
+    </section>
+    <!-- seccion Papelera -->
+    <section id="Papelera">
+        <h2>Papelera</h2>
+        <div>
+            <h3>Nota :</h3>
+            <p>iniciar presentación</p>
+        </div>
+
+    </section>
+
+
+
+
+</section>
+
+
+
+</body>
+</html>
