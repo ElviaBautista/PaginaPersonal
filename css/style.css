@@ -162,6 +162,7 @@ section{
 
 }
 
+
 .Secciones_Menu section div{
     text-align: justify;
     font-size: 30px;
@@ -174,28 +175,35 @@ section{
     align-content: center;
     font-size: 25px;
 }
-.Secciones_Menu section .imagenes {
-    
-    display: flex;
-    flex-wrap: wrap;
 
-}
+
 .Secciones_Menu section div img{
     display: block;
-    /* margin: 10% ; */
+    margin-left:25%;
+    position: relative;
+    margin-top: 1em;
 
     width: calc(620px - 320px);
     height: calc(620px - 320px );
     object-fit: cover;
+    border-radius: 25px;
+}
+.Secciones_Menu #Recordatorios .imagenes {
+    
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin: 0;
 
 }
-/* @media screen (min-width:480).Secciones_Menu .Menu{
+
+@media screen and (min-width:480) {
 .Secciones_Menu section .imagen .Secciones_Menu section div img{
             
-            /* margin: 10% ; */
+            margin: 10% ;
         
-            /* width: calc(620px - 320px);
+            width: calc(620px - 320px);
             height: calc(620px - 320px );
     }
 
-} */ 
+} 

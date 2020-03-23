@@ -75,6 +75,8 @@
 .Tarjeta .res img{
     width: calc(520px - 320px);
     height: calc(520px - 320px );
+    object-fit: cover;
+    margin-left: 20%;
     box-sizing: border-box;
 }
 .Tarjeta .ask  h3{
