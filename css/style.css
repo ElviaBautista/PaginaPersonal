@@ -189,13 +189,13 @@ section{
     object-fit: cover;
 
 }
-@media screen (min-width:480).Secciones_Menu .Menu{
+/* @media screen (min-width:480).Secciones_Menu .Menu{
 .Secciones_Menu section .imagen .Secciones_Menu section div img{
             
             /* margin: 10% ; */
         
-            width: calc(620px - 320px);
+            /* width: calc(620px - 320px);
             height: calc(620px - 320px );
     }
 
-}
+} */ 
